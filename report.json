@@ -1,0 +1,150 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T11:44:29.315Z",
+        "line": 36,
+        "name": "login",
+        "description": "",
+        "id": "test-me;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13049996000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "launch the chrome driver and launch the test me app",
+            "match": {
+              "location": "Caseexecute.launch_the_chrome_driver_and_launch_the_test_me_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3947113800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clicks on the signin button",
+            "match": {
+              "location": "Caseexecute.clicks_on_the_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144217500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enters the \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Caseexecute.user_enters_the(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151027000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user enters \"Password123\" in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Caseexecute.user_enters_in_step(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 362265300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click in login button",
+            "match": {
+              "location": "Caseexecute.click_in_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 545195000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "search product by type",
+            "match": {
+              "location": "Caseexecute.search_product_by_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202670300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "add to cart and clickcart",
+            "match": {
+              "location": "Caseexecute.add_to_cart_and_clickcart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat casestudy.Caseexecute.go_to_payment_page(Caseexecute.java:154)\r\n\tat ✽.go to payment page(classpath:casestudy/Testme.feature:32)\r\n",
+              "duration": 2482500,
+              "status": "pending"
+            },
+            "line": 32,
+            "name": "go to payment page",
+            "match": {
+              "location": "Caseexecute.go_to_payment_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Test Me",
+    "description": "  I want to use this template for my feature file",
+    "id": "test-me",
+    "keyword": "Feature",
+    "uri": "classpath:casestudy/Testme.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
